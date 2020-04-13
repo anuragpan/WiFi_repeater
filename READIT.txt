@@ -1,0 +1,37 @@
+NodeMCU:
+NodeMCU is a low-cost open source IoT platform. It initially included firmware which runs on the ESP8266 Wi-Fi SoC from Espressif Systems, and hardware which was based on the ESP-12 module.
+
+different modes of nodemcu : 
+1. Station mode
+2. Soft Access Point mode
+3. and both at the same time.(This is used in repeater)
+
+
+NAT:
+To access the Internet, one public IP address is needed, but we can use a private IP address in our private network. The idea of NAT is to allow multiple devices to access the Internet through a single public address. To achieve this, the translation of private IP address to a public IP address is required. Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts. Also, it does the translation of port numbers i.e. masks the port number of the host with another port number, in the packet that will be routed to the destination. It then makes the corresponding entries of IP address and port number in the NAT table. NAT generally operates on router or firewall.
+https://www.geeksforgeeks.org/network-address-translation-nat/
+
+Router:
+A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. Data sent through the internet, such as a web page or email, is in the form of data packets.
+
+Useful Links:
+https://en.wikipedia.org/wiki/NodeMCU
+https://arduino.stackexchange.com/questions/71408/what-is-difference-between-nodemcu-and-esp8266 
+https://www.quora.com/What-is-NODEMCU
+https://www.youtube.com/watch?v=r9yo1NFjKNo
+https://www.youtube.com/redirect?event=video_description&v=r9yo1NFjKNo&redir_token=W3xVL2Ife_DyC0555J7S642lx5B8MTU4Njg1NDYzNkAxNTg2NzY4MjM2&q=https%3A%2F%2Fwww.mediafire.com%2Ffile%2Fbf96acaje8gd7jd%2Fwifi_repeater_files.zip%2Ffile
+
+
+--------------------------------------------------------------------------------------------------------------
+Other Practices:
+
+the link: 
+https://lastminuteengineers.com/creating-esp8266-web-server-arduino-ide/
+ will "Create A Simple ESP8266 NodeMCU Web Server In Arduino IDE" Which clears all doubts.
+
+Introduction to the MQTT Protocol on NodeMCU:
+https://www.allaboutcircuits.com/projects/introduction-to-the-mqtt-protocol-on-nodemcu/
+
+MQTT protocol How it works?
+https://1sheeld.com/mqtt-protocol/?__cf_chl_jschl_tk__=8962d435c584069d25b27f315a4fcfb876036d59-1586777506-0-AdJXbs5U-r3TnYKEiHiP85sYkrz1zb1iFJzoSOpd05aWDFaIHEaE9d-JeLcpL3hJHi4pK35EiBCTq8zG2-f6DMp_XJapBzoZu52-AeFP-EI5ekxozMQuF7XuuY7qn9vIXkg13O6TDF21zRU5de2nCE5mUvqg32_nrOaU2S0ApnUjwpiFyYhu73w5s_VZ28qunxi5Es9rbMuvc7yjH1FNWtHTGSB2sT58JCIvj9hNVvFn1hC4iK_8ZUeBN5NGh9brNYxT5rNcSA4UwJltCsZgMgJZfAboJ4g2Z8kRAca_tI0X
+
